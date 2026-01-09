@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Juan Dev | Estudiante de Informática</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">&lt;JeremyDev/&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#home">Inicio</a></li>
+            <li><a href="#about">Sobre Mí</a></li>
+            <li><a href="#skills">Habilidades</a></li>
+            <li><a href="#projects">Proyectos</a></li>
+            <li><a href="#contact">Contacto</a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header id="home" class="hero">
+        <div class="hero-content">
+            <span class="greeting">Hola, soy</span>
+            <h1 class="glitch-text" data-text="Juan Pérez">Jeremy Galora</h1>
+            <h2 class="typing-text">Estudiante de <span id="typewriter"></span></h2>
+            <p class="hero-description">Apasionado por la administracón, la resolución de problemas y la creación de
+                experiencias digitales únicas.</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn primary">Ver Proyectos</a>
+                <a href="#contact" class="btn secondary">Contáctame</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2 class="section-title">Sobre Mí</h2>
+        <div class="container about-container">
+            <div class="about-img">
+                <!-- Placeholder for user image using a generic gradient or icon -->
+                <div class="img-box">
+                    <i class="fas fa-user-astronaut"></i>
+                </div>
+            </div>
+            <div class="about-text">
+                <h3>Desarrollador en formación</h3>
+                <p>Soy un estudiante de informática dedicado a aprender las últimas tecnologías web. Me encanta
+                    transformar ideas complejas en interfaces simples y elegantes. Siempre estoy buscando nuevos
+                    desafíos para mejorar mis habilidades.</p>
+                <div class="stats">
+                    <div class="stat-item">
+                        <span class="number">2+</span>
+                        <span class="label">Años estudiando</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="number">10+</span>
+                        <span class="label">Proyectos escolares</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">Mis Habilidades</h2>
+        <div class="container skills-container">
+            <div class="skill-card">
+                <i class="fab fa-html5"></i>
+                <h3>HTML5</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 90%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-css3-alt"></i>
+                <h3>CSS3</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 85%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-js"></i>
+                <h3>JavaScript</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 75%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-python"></i>
+                <h3>Python</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 70%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fas fa-database"></i>
+                <h3>SQL</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 80%;"></div>
+                </div>
+            </div>
+            <div class="skill-card">
+                <i class="fab fa-git-alt"></i>
+                <h3>Git</h3>
+                <div class="progress-bar">
+                    <div class="progress" style="width: 65%;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">Proyectos Destacados</h2>
+        <div class="container projects-grid">
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-globe"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Web Portfolio</h3>
+                    <p>Este mismo sitio web, creado con HTML, CSS y JS puro.</p>
+                    <div class="tags">
+                        <span>HTML</span><span>CSS</span><span>JS</span>
+                    </div>
+                    <a href="#" class="btn-small">Ver Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-gamepad"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Juego Snake</h3>
+                    <p>Clásico juego de la serpiente implementado en JavaScript.</p>
+                    <div class="tags">
+                        <span>JS</span><span>Canvas</span>
+                    </div>
+                    <a href="#" class="btn-small">Ver Demo</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img">
+                    <i class="fas fa-shopping-cart"></i>
+                </div>
+                <div class="project-info">
+                    <h3>Tienda Simple</h3>
+                    <p>Maqueta de una tienda online con carrito de compras.</p>
+                    <div class="tags">
+                        <span>HTML</span><span>CSS</span>
+                    </div>
+                    <a href="#" class="btn-small">Ver Demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <h2 class="section-title">Contáctame</h2>
+        <div class="container contact-container">
+            <form class="contact-form">
+                <div class="form-group">
+                    <input type="text" placeholder="Nombre" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea placeholder="Mensaje" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn primary">Enviar Mensaje</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-github"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Juan Dev. Hecho con <i class="fas fa-heart"></i> y código.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
